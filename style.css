@@ -1,7 +1,24 @@
-@import url(@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap'););
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
 
 :root{
     --cor-principal: #330b0b;
     --cor-secundaria: #f7f7f7e1;
-    --cor-destaque: 
+    --cor-destaque: #330b0b;  
+}
+
+body {
+    font-family: 'Chakra  Petch', sans-serif; 
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-principal);
+}
+
+footer a:hover{
+    color: var(--cor-destaque);
 }
